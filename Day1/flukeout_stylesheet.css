@@ -1,0 +1,55 @@
+
+h3 {
+	color: white;
+	background-color: #ffcc5c;
+	background-position: absolute;
+}
+
+#bottom {
+	background-color: aqua;
+	background-position: absolute;
+}
+
+div:last-of-type {
+	background-color: white;
+	background-position: absolute;
+}
+#mid {
+	background-color: #ffcc5c;
+	color:white;
+	background-position: absolute;
+}
+#comp {
+	width: 750px;
+	height: 500px;
+
+}
+
+#logo {
+	width: 150px;
+	height: 70px;
+}
+#top {
+	background-color: #ffcc5c;
+	background-position: absolute;
+}
+#last_box{
+	background-color: #dfdfdf;
+	background-position: absolute;
+}
+
+img:last-of-type {
+	height: 20px;
+	width:20pz;
+
+}
+button {
+	background-color: aqua;
+	padding: 12px;
+    color: white;
+    font-size: 16px;
+    font-color: white;
+    border: white line;
+    border-color: white;
+    border-radius: 10px;
+}
