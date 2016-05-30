@@ -1,0 +1,79 @@
+h1 {
+	text-align: center;
+	color: aqua;
+	font-size: 75px;
+}
+p {
+	text-align: center;
+}
+
+button {
+	background-color: white;
+    color: aqua;
+    padding: 16px;
+    font-size: 16px;
+    font-color: aqua;
+    border: aqua line;
+    border-color: aqua;
+    cursor: pointer;
+    border-radius: 10px;
+	  
+}
+.dropbtn {
+  	background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    font-color: black;
+    border: black line;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+#myDropdown {
+	 margin-right: 300px;
+}
+
+.dropdown {
+
+	float: middle;
+    position: middle;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: gray
+}
+.show {
+	display:block;
+	border-radius: 10px;
+}
+hr {
+   display: block;
+   position: center;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}

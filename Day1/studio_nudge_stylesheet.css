@@ -1,19 +1,20 @@
 p {
 	text-align: center;
 }
-
 a > img {
 	height: 18px;
 	width: 15px;
 }
-
+#logo {
+	position:left;
+}
 hr {
    display: block;
-   position: relative;
+   position: center;
    padding: 0;
    margin: 8px auto;
    height: 0;
-   width: 100%;
+   width: 200%;
    max-height: 0;
    font-size: 1px;
    line-height: 0;
@@ -22,12 +23,17 @@ hr {
    border-top: 1px solid #aaaaaa;
    border-bottom: 1px solid #ffffff;
 }
-}
+
 h3 {
 	text-align: center;
 }
-a {
+a:last-of-type {
 	text-decoration: none;
+	color: black;
+
+}
+div > img {
+	resize: 30%;
 }
 
 
