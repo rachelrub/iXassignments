@@ -1,0 +1,62 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	color: black;
+}
+
+.header {
+	border: 1px black solid;
+	/*position: fixed;*/
+	background-color: white;
+	color: black;
+}
+.nav-bar {
+	margin-right: 50px;
+}
+.home {
+	color: orange;
+}
+.body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg");
+	/*background-image-size: 30%; */
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.body img {
+	width: 200px;
+}
+.text {
+	color:white;
+}
+.sub-header {
+	color: lightgray;
+}
+button {
+	background-color: orange;
+	padding: 10px;
+	border-radius: 0px;
+	text-decoration: none;
+	color: white;
+	border: none;
+}
+.info {
+	height: 200px;
+	/*margin-top: 300px;*/
+	padding: 200px;
+	padding-bottom: 200px;
+	border: 1px black solid;
+
+}
+.dir-header + .open-header + .follow-header + .insta-header {
+	color: white;
+}
+.dir-body + .open-body + .follow-body + .insta-body {
+	color: grey;
+}
+.footer {
+	border: 1px black solid;
+
+}
