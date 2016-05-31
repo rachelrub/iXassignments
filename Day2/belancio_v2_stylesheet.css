@@ -3,14 +3,27 @@ body {
 	margin: 0px;
 	text-align: center;
 	font-family: Helvetica;
+	background-color:#EBB263; 
 }
 .header {
 	background-color: #EBB263;
 	color: white;
+	padding-top: 35px;
+}
+.belancio {
+	padding-right: 600px;
+	padding-left: 40px;
+}
+.menu {
+	word-spacing: 40px;
 }
 .body {
 	background-color: #EBB263;
 	color: white;
+}
+.plus {
+	height: 80px;
+	width: 90px;
 }
 .comp {
 	height: 75%;
@@ -25,22 +38,58 @@ body {
 	width: 160px;
 }
 .logo {
+	margin-top: 25px;
 	height: 75px;
 	width: 150px;
+}
+.clients {
+	background-color:white;
+	text-align: left;
+	color: darkslategray;
+	padding: 30px;
+	font-size: 30px;
 }
 .work {
 	background-color: #86DAC2;
 	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.work2 {
+	text-align:center;
+	padding-left: 25px;
 }
 .button {
 	border: solid white;
 	border-radius: opx;
 	padding: 15px;
+	margin-left:300px;
 }
 .footer {
 	background-color: #D3D3D3;
 	color: gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.belancio2 {
+	display:inline-block;
+	margin-right: 670px;
+}
+.menu2 {
+	word-spacing: 40px;
+	display:inline-block;
 }
 .sub-footer {
 	color: lightgray;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.cali {
+	display: inline-block;
+	margin-right: 500px;
+}
+.rights {
+	display: inline-block;
 }
