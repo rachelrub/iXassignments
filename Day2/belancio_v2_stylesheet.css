@@ -1,0 +1,46 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-family: Helvetica;
+}
+.header {
+	background-color: #EBB263;
+	color: white;
+}
+.body {
+	background-color: #EBB263;
+	color: white;
+}
+.comp {
+	height: 75%;
+	width: 75%;
+}
+.logo-1 {
+	height: 90px;
+	width: 90px;
+}
+.logo:nth-child(1){
+	height: 75px;
+	width: 160px;
+}
+.logo {
+	height: 75px;
+	width: 150px;
+}
+.work {
+	background-color: #86DAC2;
+	color: white;
+}
+.button {
+	border: solid white;
+	border-radius: opx;
+	padding: 15px;
+}
+.footer {
+	background-color: #D3D3D3;
+	color: gray;
+}
+.sub-footer {
+	color: lightgray;
+}
