@@ -1,0 +1,22 @@
+body {
+	background-color: #fff;
+	text-align: center;
+	font-family: Helvetica;
+}
+.container {
+	text-align: center;
+	margin-top: 200px;
+}
+.row:first-of-type {
+	font-size:70px;
+	color: darkgreen;
+}
+.col-lg-7 {
+	display: inline-block;
+}
+.col-lg-5 {
+	display: inline-block;
+}
+li {
+	text-align: center;
+}
