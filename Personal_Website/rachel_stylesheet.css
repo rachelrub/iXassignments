@@ -1,0 +1,182 @@
+body {
+	text-align: center;
+	height: 100%
+	width: 100%;
+	color: white;
+	background-color: black;
+	font-family: Helvetica;
+}
+.leftcol {
+	width: 255px;
+	height: 100vh;
+	background-color: black;
+	color: white;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	text-align: left;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.meme{
+	height: 290px;
+	width: 300px;
+	margin-left: -70px;
+}
+.cover-pic {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	/*position: absolute;*/
+}
+section.maincol {
+    position: absolute;
+    top: 0;
+    left: 255px;
+    bottom: 0;
+    overflow: auto;
+
+    min-width: 400px;
+}
+section {
+	display: block;
+}
+.my-fluid-container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	background-color: black;
+}
+.cape-town {
+	height: 50%;
+	width:50%;
+}
+.hover-facts1 {
+	border: 2px solid #FF04D5;
+	background-color: #FF04D5;
+	top: 35px;
+	left: 400px;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
+.imgWrap {
+	position: relative;
+}
+.hover-facts1 {
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	padding-top: 100px;
+	opacity: 0;
+}
+.hover-facts2 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts3 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts4 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts5 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts6 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.imgWrap:hover .hover-facts1 {
+	visibility: visible;
+	opacity: .8;
+
+}
+.imgWrap:hover .hover-facts2 {
+	visibility: visible;
+	opacity: .8;
+
+}
+.imgWrap:hover .hover-facts3 {
+	visibility: visible;
+	opacity: .8;
+
+}
+.imgWrap:hover .hover-facts4 {
+	visibility: visible;
+	opacity: .8;
+
+}
+.imgWrap:hover .hover-facts5 {
+	visibility: visible;
+	opacity: .8;
+
+}
+.imgWrap:hover .hover-facts6 {
+	visibility: visible;
+	opacity: .8;
+
+}
+
+
+.pics {
+	display: inline-block;
+	height: 300px;
+	width: 300px; 
+	padding:30px;
+	margin-left:25px;
+
+}
