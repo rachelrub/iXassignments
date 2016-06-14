@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link rel="stylesheet" href="./day12morning.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="./day12morning.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="MainCtrl">
+	<div class="wrapper">
+		<div class="title">To-Do List</div>
+			<form ng-submit="addItems()">
+				<input type="text" ng-model="newItems">
+			</form>
+			<ol>
+				<li ng-repeat="i in Items track by $index">{{i}}
+					<input type="checkbox" ng-model="Item.selected" ng-click="remove($index)"> 
+				</li>
+			</ol>
+	</div>
+</body>
+</html>
